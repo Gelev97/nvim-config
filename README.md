@@ -1,3 +1,7 @@
+# Pre-preparation
+`mkdir -p ~/.config/nvim`
+`git clone git@github.com:Gelev97/nvim-config.git`
+
 # LSP - Mason Install
 -   `sudo apt install npm`
 -   `:Mason` - opens a graphical status window
