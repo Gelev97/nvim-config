@@ -9,5 +9,9 @@
 -   Packages Linter - flake8 / cpplint
 
 
-  
+crtl+v	Go to file selection as a vsplit
+crtl+c	Close telescope (insert mode)
+jk	Close telescope (in normal mode)
+crtl+p open search
+space+fg open fuzzy search
 
