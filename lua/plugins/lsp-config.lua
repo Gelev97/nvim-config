@@ -20,7 +20,16 @@ return {
       local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
       local lspconfig = require("lspconfig")
-      lspconfig.tsserver.setup({
+      lspconfig.clangd.setup({
+        capabilities = capabilities
+      })
+      lspconfig.ltex.setup({
+        capabilities = capabilities
+      })
+      lspconfig.marksman.setup({
+        capabilities = capabilities
+      })
+      lspconfig.pyright.setup({
         capabilities = capabilities
       })
       lspconfig.html.setup({
