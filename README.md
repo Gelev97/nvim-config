@@ -40,7 +40,9 @@
 ## NeoColumn
 -   `space+nc` show column 80 and 120 highlighting
 
-
 ## Spell Check
 -   `z=` find available words
 -   `space+ts` toggle spell check
+
+## Vim Wiki
+-   `space+ww` open index.md
