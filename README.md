@@ -48,8 +48,5 @@
 -   `z=` find available words
 -   `space+ts` toggle spell check
 
-## Vim Wiki
--   `space+ww` open index.md
-
 ## trouble
 -   `space+xd` show all documents' errors
