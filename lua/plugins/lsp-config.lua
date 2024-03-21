@@ -24,7 +24,10 @@ return {
         capabilities = capabilities
       })
       lspconfig.ltex.setup({
-        capabilities = capabilities
+        capabilities = capabilities,
+        filetypes = { "bib", "gitcommit", "org", "plaintex", "rst", 
+                      "rnoweb", "tex", "pandoc", "quarto", "rmd", "context", 
+                      "html", "xhtml" }
       })
       lspconfig.marksman.setup({
         capabilities = capabilities
@@ -38,7 +41,7 @@ return {
       lspconfig.lua_ls.setup({
         capabilities = capabilities
       })
-
+      vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, {})
       vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
       vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})
       vim.keymap.set("n", "<leader>gr", vim.lsp.buf.references, {})

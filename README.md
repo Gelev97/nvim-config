@@ -6,9 +6,13 @@
 -   `curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -`
 -   `sudo apt-get install ripgrep`
 -   Install latest npm
+-   Install [im-select](https://github.com/daipeihust/im-select)
+
+## Global Mappings
+-   `Caps` to `Crtl`.
+-   `Crtal + space` to change language input.
 
 ## LSP - Mason Install
--   `sudo apt install npm`
 -   `:Mason` - opens a graphical status window
 -   `:MasonUpdate` - updates all managed registries
 -   `:MasonInstall <package> ...` - installs/re-installs the provided packages
@@ -28,7 +32,7 @@
 -   `t` unfold folder
 -   `r` rename item
 -   `m` move item
--   `i` item infomation
+-   `i` item information
 -   `q` close the tree
 
 ## Telescope - Search
@@ -46,3 +50,6 @@
 
 ## Vim Wiki
 -   `space+ww` open index.md
+
+## trouble
+-   `space+xd` show all documents' errors
