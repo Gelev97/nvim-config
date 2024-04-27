@@ -48,5 +48,8 @@
 -   `z=` find available words
 -   `space+ts` toggle spell check
 
-## trouble
+## Trouble
 -   `space+xd` show all documents' errors
+
+## White Space
+-   `space+tw` trim all whitespaces
