@@ -10,7 +10,7 @@
 
 ## Global Mappings
 -   `Caps` to `Crtl`.
--   `Crtal + space` to change language input.
+-   `crtl + space` to change language input.
 
 ## LSP - Mason Install
 -   `:Mason` - opens a graphical status window
