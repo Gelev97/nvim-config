@@ -3,9 +3,8 @@
 -   `git clone git@github.com:Gelev97/nvim-config.git`
 -   `mkdir -p ~/.local/share/fonts`
 -   `cd ~/.local/share/fonts && curl -fLO https://github.com/ryanoasis/nerd-fonts/raw/HEAD/patched-fonts/DroidSansMono/DroidSansMNerdFont-Regular.otf`
--   `curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -`
 -   `sudo apt-get install ripgrep`
--   Install latest npm
+-   `sudo apt install nodejs npm`
 -   Install [im-select](https://github.com/daipeihust/im-select)
 
 ## Global Mappings
