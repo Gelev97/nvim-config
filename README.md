@@ -1,6 +1,5 @@
 ## Config
--   `mkdir -p ~/.config/nvim`
--   `git clone git@github.com:Gelev97/nvim-config.git`
+-   `git clone --single-branch --depth 1 git@github.com:Gelev97/nvim-config.git ~/.config/nvim`
 -   `mkdir -p ~/.local/share/fonts`
 -   `cd ~/.local/share/fonts && curl -fLO https://github.com/ryanoasis/nerd-fonts/raw/HEAD/patched-fonts/DroidSansMono/DroidSansMNerdFont-Regular.otf`
 -   `sudo apt-get install ripgrep`
