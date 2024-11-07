@@ -15,7 +15,7 @@
 -   `:MasonUpdate` - updates all managed registries
 -   `:MasonInstall <package> ...` - installs/re-installs the provided packages
 -   `:MasonUninstall <package> ...` - uninstalls the provided packages
--   Packages LSP - clangd / ltex-ls / marksman / pyright / html / lua-ls
+-   Packages LSP - clangd / ltex-ls / marksman / pyright / html-lsp / lua-ls
 -   Packages Linter - flake8 / cpplint
 -   `space+gd` get definition of the code
 -   `space+gr` get all the references of the code
