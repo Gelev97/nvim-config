@@ -32,7 +32,6 @@
 -   `m` move item
 -   `i` item information
 -   `q` close the tree
--   `h` show hidden files
 
 ## Telescope - Search
 -   `crtl+v` Go to file selection as a vsplit
