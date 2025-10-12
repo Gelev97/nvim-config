@@ -18,6 +18,7 @@
 -   `:MasonUninstall <package> ...` - uninstalls the provided packages
 -   Packages LSP - clangd / ltex-ls / marksman / pyright / html-lsp / lua-ls
 -   Packages Linter - flake8 / cpplint
+-   `K` - hover to see information about the word under the cursor.
 -   `space+gd` get definition of the code
 -   `space+gr` get all the references of the code
 -   `crtl+n` next hover choice
