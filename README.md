@@ -4,6 +4,7 @@
 -   `cd ~/.local/share/fonts && curl -fLO https://github.com/ryanoasis/nerd-fonts/raw/HEAD/patched-fonts/DroidSansMono/DroidSansMNerdFont-Regular.otf`
 -   `sudo apt-get install ripgrep`
 -   `sudo apt install nodejs npm`
+-   Install [ImageMagick](https://github.com/3rd/image.nvim) 
 -   Install [im-select](https://github.com/daipeihust/im-select)
 
 ## Global Mappings
