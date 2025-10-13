@@ -21,13 +21,15 @@ vim.api.nvim_create_autocmd("User", {
     -- run Lazy sync silently (no UI)
     require("lazy").sync({ show = false, wait = false })
 
-    -- delay Mason update slightly
+    -- delay Mason and Treesitter updates slightly
     vim.defer_fn(function()
+      -- Update Mason
       local ok, mason = pcall(require, "mason.api.command")
       if ok then
         mason.MasonUpdate()
       end
+      -- Update Treesitter parsers
+      vim.cmd("TSUpdate")
     end, 2000)
   end,
 })
-
