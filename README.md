@@ -37,14 +37,14 @@
 
 ## DAP
 - `space+fr` **Run / Continue**: Start or continue the debug session.
-- `<SPC>fc` **Choose & Launch**: Select a debug configuration to launch.
-- `<SPC>fq` **Super Quit**: Terminate the session and close all DAP windows.
-- `<SPC>fb` **Toggle Breakpoint**: Set or remove a breakpoint on the current line.
-- `<SPC>fo` **Step Over**: Execute the current line without entering functions.
-- `<SPC>fi` **Step Into**: Enter the function call on the current line.
-- `<SPC>fu` **Step Out**: Exit the current function and return to the caller.
-- `<SPC>fe` **Open REPL**: Open the interactive REPL window.
-- `<SPC>fs` **View Scopes**: Show all variables in a floating window.
+- `space+fc` **Choose & Launch**: Select a debug configuration to launch.
+- `space+fq` **Super Quit**: Terminate the session and close all DAP windows.
+- `space+fb` **Toggle Breakpoint**: Set or remove a breakpoint on the current line.
+- `space+fo` **Step Over**: Execute the current line without entering functions.
+- `space+fi` **Step Into**: Enter the function call on the current line.
+- `space+fu` **Step Out**: Exit the current function and return to the caller.
+- `space+fe` **Open REPL**: Open the interactive REPL window.
+- `space+fs` **View Scopes**: Show all variables in a floating window.
 - `K` **Hover Variable**: View the value of the variable under the cursor.
 
 ## Telescope - Search
