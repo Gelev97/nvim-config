@@ -47,6 +47,12 @@
 - `space+fs` **View Scopes**: Show all variables in a floating window.
 - `K` **Hover Variable**: View the value of the variable under the cursor.
 
+## DAPdd REPL
+-  .exit Closes the REPL
+- .scopes Prints the variables in the current scopes
+- .threads Prints all threads
+- .frames Print the stack frames
+
 ## Telescope - Search
 -   `crtl+v` Go to file selection as a vsplit
 -   `crtl+c` Close telescope (insert mode)
